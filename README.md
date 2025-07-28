@@ -37,7 +37,7 @@ A real-time collaborative note-taking web application that allows multiple users
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/realtime-notes-app.git
+git clone https://github.com/Abhirkt1996/mern-notes-app.git
 cd realtime-notes-app
 ```
 
@@ -53,8 +53,9 @@ touch .env
 Add your MongoDB URI to `.env`:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/notes
 PORT=5000
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/realtime-notes?retryWrites=true&w=majority
+
 ```
 
 Then run the server:
